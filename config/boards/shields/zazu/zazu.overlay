@@ -1,2 +1,8 @@
 
 #include "zazu.dtsi"
+
+
+&oled {
+    segment-remap;
+    com-invdir;
+};
